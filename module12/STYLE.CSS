@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    letter-spacing: 20px;
+    word-spacing: 20px ;
+}
+
+
+
+p{
+    text-indent: 50px;
+    text-align: center ;
+    writing-mode: vertical-lr;
+}
+
+
+h2{
+    text-decoration: overline;  
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+h4{
+    text-decoration: underline;   
+}
+
