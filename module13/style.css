@@ -1,3 +1,44 @@
-ul{
-    list-style-type: url(download\ \(1\).png)
+#unordered{
+ list-style-type: square;
+ background-color: aqua;
+ padding: 20px;
+ border: 3px dashed black;
+ margin: 20px;
+}
+
+#order{
+    list-style-type: upper-roman;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 3px dashed black;
+    margin: 20px;
+}
+
+li{
+    background-color: rgb(154,  201, 201);
+    border: 1px solid black;
+    padding: 10px; 
+}
+
+
+th, td{
+    background-color: black;
+    border: 2px;
+    padding: 10px;
+}
+
+th{
+    color: antiquewhite;
+}
+
+td{
+    background-color: green;
+    color: rgb(204, 170, 93);
+}
+
+#text1{
+    overflow: scroll;
+    background-color: rgb(193, 147, 236);
+    width: 400px;
+    height: 200px;                            
 }
