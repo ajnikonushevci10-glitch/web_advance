@@ -1,0 +1,92 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid white;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover{
+    border: 1px solid grey;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.sprite{
+    background: url(images/houses.png) no-repeat;
+}
+
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position:0px 0px ;
+}
+
+.shadows{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+.hipsters{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -0px -500px;
+}
+
+.speedsters{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px 0px;
+}
+
+a[href="https://shkolladigjitale.com/"]{
+    background-color: antiquewhite;
+}
+
+p[class*="ds"]{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[id~="ds"]{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+    
+/*
+^="ds" -kur fillon me ds
+|="ds" -kur atrributet value startoon me ds in dash sepereted
+*/
+
+
+img[title^="blue"]{
+    border: 5px solid blue;
+}
+
+h1[class|=heading]{
+    background: purple;
+    padding: 20px;
+    color: white;
+}
+
+input[placeholder$="name"]{
+    border: 3px solid red;
+}
+
+input[read-only]{
+    border: 3px solid green;
+}
