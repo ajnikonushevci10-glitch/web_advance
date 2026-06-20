@@ -1,0 +1,30 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+
+   /* transform: translate(100px,50px);
+    transform: rotate(270deg);
+    transform: scale(1.5);
+    transform: scaleX(3); */
+    /*transform: scaleY(3);*/
+    /*transform: skew(-60deg);*/
+    /*transform: rotateX(130deg);*/
+    /*transform: rotateY(130deg);*/
+    /*transform: rotateZ(130deg);*/
+    /*trazicionet*/
+    transition: 3s ease-in-out, border-radius 5s;
+    transition-delay: 2s;
+}
+
+#translate:hover{
+    background-color: red;
+    border-radius: 50%;
+    
+}
+
+
+
