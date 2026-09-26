@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Hope</title>
+  <meta name="description" content="Get in touch with Hope, or visit one of our stockists." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Hope</a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <a href="shop.html" class="bag-link">Bag (<span id="bag-count">0</span>)</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro container">
+      <span class="eyebrow">Get in touch</span>
+      <h1>Questions, repairs, or just to say hello.</h1>
+      <p>Order questions, repair requests, and stockist enquiries all land in the same inbox — we read every one of them ourselves.</p>
+    </section>
+
+    <section class="container">
+      <div class="split">
+        <div>
+          <h2>Send a message</h2>
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" />
+                <p class="field-error" id="name-error"></p>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" />
+                <p class="field-error" id="email-error"></p>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <p class="field-error" id="message-error"></p>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary">Send message</button>
+              </div>
+              <p class="form-note" role="status"></p>
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <h2>Find us</h2>
+          <p>The studio in Prishtina is open to visitors on weekday afternoons — repairs and alterations are handled there directly.</p>
+          <div class="video-frame" style="padding-top:75%;">
+            <iframe
+              src="https://www.google.com/maps?q=Prishtina%2C%20Kosovo&output=embed"
+              title="Map showing the Hope studio location in Prishtina"
+              loading="lazy"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stockists table -->
+    <section class="container">
+      <h2>Stockists</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Where to find Hope in person</caption>
+          <thead>
+            <tr>
+              <th scope="col">City</th>
+              <th scope="col">Store</th>
+              <th scope="col">Address</th>
+              <th scope="col">Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Prishtina</td>
+              <td>Hope Studio</td>
+              <td>Rr. Agim Ramadani 12</td>
+              <td>Mon–Fri, 11:00–18:00</td>
+            </tr>
+            <tr>
+              <td>Prishtina</td>
+              <td>Dyqani i Vogël</td>
+              <td>Rr. Nëna Terezë 34</td>
+              <td>Tue–Sat, 10:00–19:00</td>
+            </tr>
+            <tr>
+              <td>Prizren</td>
+              <td>Qëndra Concept Store</td>
+              <td>Sheshi i Shatërvanit 5</td>
+              <td>Mon–Sat, 10:00–18:30</td>
+            </tr>
+            <tr>
+              <td>Skopje</td>
+              <td>Studio North</td>
+              <td>Ul. Makedonija 21</td>
+              <td>Mon–Fri, 09:00–17:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="logo" style="font-size:1.4rem;">Hope</p>
+          <p>Quiet clothing, made to be repaired rather than replaced.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="shop.html">All products</a></li>
+            <li><a href="shop.html#size-guide">Size guide</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="about.html">Our story</a></li>
+            <li><a href="contact.html">Visit / contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Hope Clothing. School project — not a real store.</span>
+        <span>Photos: picsum.photos</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

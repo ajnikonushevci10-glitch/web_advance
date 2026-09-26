@@ -1,194 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><Hope-Clothing></title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hope Clothing</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/solid.min.css">
 </head>
 <body>
 
-
-
-
-     <div class="header">
-      <div class="contanier">
-<div class="navbar">
-    <div class="logo">
-<img src="Untitled Project - Artboard 1.png" width="125px">
-
-  </div>
-<nav>
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Account</a></li>
-    </ul>
-</nav>
-<img src="shoping cart.png" width="30px" height="30px">
-  </div>
-  <div class="row">
-    <div class="col-2">
-      <h1>Hope big!</h1>
-      <p>Hope is more than just a clothing brand — it represents confidence,
-         positivity, and believing in a better future.</p>
-         <a href=""class="btn">Explore Now &#8594;</a>
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Hope logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
     </div>
-    <div class="col-3">
-     <img src="hope.png">
-    </div>
-  </div>
+
+    <div class="row col-2 hero-row">
+      <div>
+        <h1>Hope Big!</h1>
+        <p>Hope is more than just a clothing brand — it represents confidence, positivity, and believing in a better future.</p>
+        <a href="products.html" class="btn">Explore Now &#8594;</a>
+      </div>
+      <div>
+        <img src="images/hero.png" alt="Hope hero">
       </div>
     </div>
+  </div>
+</div>
 
-<!--featured  categories-->
+<!-- featured categories -->
 <div class="categories">
-    <div class="small contanier">
-        <div class="row">
-        <div class="col-4">
-            <img src="hope-03.png"
-
-        div>
-
-        
-        </div>
-        <div class="col-4">
-            <img src="hope-03.png">
-        </div>
-     </div>
+  <div class="small container">
+    <div class="row col-2">
+      <div class="colum">
+        <img src="images/category-y2k.png" alt="Y2K Collection">
+      </div>
+      <div class="colum">
+        <img src="images/category-essentials.png" alt="Essentials Collection">
+      </div>
     </div>
-     
+  </div>
 </div>
 
-<!--featured  products-->
-<div class="small contanier">
-    <h2 class="title">Fetured Products</h2>
-    <div class="row">
-        <div class="col-4">
-            <img src="Untitled Project - T-Shirt.png">
-            <h4>Unvirsel Hope</h4>
-            <div class="rating">
-            <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-            </div>
-            <p>$29.99</p>
-        </div>
-         <div class="row">
-        <div class="col-4">
-            <img src="Untitled Project - T-Shirt.png">
-            <h4>Unvirsel Hope</h4>
-           
-        </div>
-         <div class="row">
-        <div class="col-4">
-            <img src="Untitled Project - T-Shirt.png">
-            <h4>Unvirsel Hope</h4>
-            <div class="rating">
-            <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-            </div>
-            <p>$29.99</p>
-        </div>
-    <div class="col-4">
-            <img src="Untitled Project - T-Shirt.png">
-            <h4>Unvirsel Hope</h4>
-            <div class="rating">
-            <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star-o"></i>
-            </div>
-            <p>$29.99</p>
+<!-- featured products -->
+<div class="small container">
+  <h2 class="title">Featured Products</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-img-wrap">
+        <img src="images/tshirt-1.png" alt="Universal Hope Tee">
+      </div>
+      <div class="product-info">
+        <h4>Universal Hope</h4>
+        <div class="stars" style="--rating: 4.5;" aria-label="4.5 out of 5 stars"></div>
+        <p class="product-price">$29.99</p>
+      </div>
     </div>
+    <div class="product-card">
+      <div class="product-img-wrap">
+        <img src="images/tshirt-2.png" alt="Hope Together Tee">
+      </div>
+      <div class="product-info">
+        <h4>Hope Together</h4>
+        <div class="stars" style="--rating: 4;" aria-label="4 out of 5 stars"></div>
+        <p class="product-price">$29.99</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-img-wrap">
+        <img src="images/tshirt-3.png" alt="Universal Hope Tee">
+      </div>
+      <div class="product-info">
+        <h4>Universal Hope</h4>
+        <div class="stars" style="--rating: 5;" aria-label="5 out of 5 stars"></div>
+        <p class="product-price">$29.99</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-img-wrap">
+        <img src="images/tshirt-4.png" alt="Universal Hope Tee">
+      </div>
+      <div class="product-info">
+        <h4>Universal Hope</h4>
+        <div class="stars" style="--rating: 4.5;" aria-label="4.5 out of 5 stars"></div>
+        <p class="product-price">$29.99</p>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="title">Latest Products</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-img-wrap">
+        <img src="images/tshirt-5.png" alt="We Hope Together Tee">
+      </div>
+      <div class="product-info">
+        <h4>We Hope Together</h4>
+        <div class="stars" style="--rating: 4;" aria-label="4 out of 5 stars"></div>
+        <p class="product-price">$29.99</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-img-wrap">
+        <img src="images/tshirt-6.png" alt="Universal Hope Tee">
+      </div>
+      <div class="product-info">
+        <h4>Universal Hope</h4>
+        <div class="stars" style="--rating: 3.5;" aria-label="3.5 out of 5 stars"></div>
+        <p class="product-price">$29.99</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-img-wrap">
+        <img src="images/tshirt-7.png" alt="Universal Hope Tee">
+      </div>
+      <div class="product-info">
+        <h4>Universal Hope</h4>
+        <div class="stars" style="--rating: 4.5;" aria-label="4.5 out of 5 stars"></div>
+        <p class="product-price">$29.99</p>
+      </div>
+    </div>
+  </div>
 </div>
 
- <!--offer-->
- <div class="offer">
-    <div class="small container">
-        <div class="row">
-            <div class="col-2">
-                    <img src="CLOTHING DESING  - This Life is Yours God.png" class="offer-img">
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available On Hope Store</p>
-                    <h1>Hope for the shirt</h1>
-                    <small>Hope Shirt with cool desing,comfort 
-                        ,and you it draws a lot of attenion</small>
-                 <a href="" class="btn">Buy now &#8594;</a>       xx
-                </div>
-            </div>
-        </div>
+<!-- offer -->
+<div class="offer">
+  <div class="small container">
+    <div class="row col-2">
+      <div>
+        <img src="images/offer.png" class="offer-img" alt="Hope offer shirt">
+      </div>
+      <div>
+        <p>Exclusively Available On Hope Store</p>
+        <h1>Hope For The Shirt</h1>
+        <small>Hope shirt with cool design, comfort, and it draws a lot of attention.</small>
+        <a href="products.html" class="btn">Buy Now &#8594;</a>
+      </div>
     </div>
- </div>
-    
-<!--testimonial-->
-
-<div class="testimonial">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia recusandae, 
-                amet illum explicabo facilis neque totam consequuntur odio inventore!</p>
-                 <div class="rating">
-               <i class="fa fa-star"></i>
-               <i class="fa fa-star"></i>
-               <i class="fa fa-star"></i>
-               <i class="fa fa-st ar"></i>
-               <i class="fa fa-star-o"></i>
-               </div>
-               <img src="download (1).jpg" alt="">
-               <h3>Lebron James </h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia recusandae, 
-                amet illum explicabo facilis neque totam consequuntur odio inventore!</p>
-                 <div class="rating">
-               <i class="fa fa-star"></i>
-               <i class="fa fa-star"></i>
-               <i class="fa fa-star"></i>
-               <i class="fa fa-st ar"></i>
-               <i class="fa fa-star-o"></i>
-               </div>
-               <img src="Lee69sin.jpg" alt="">
-               <h3>Ajni Konushevci </h3>
-            </div>
-            <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia recusandae, 
-                amet illum explicabo facilis neque totam consequuntur odio inventore!</p>
-                 <div class="rating">
-               <i class="fa fa-star"></i>
-               <i class="fa fa-star"></i>
-               <i class="fa fa-star"></i>
-               <i class="fa fa-st ar"></i>
-               <i class="fa fa-star-o"></i>
-               </div>
-               <img src="download (2).jpg" alt="">
-               <h3>Mike Wazouszki </h3>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
 
-
-
-
+<footer>
+  <div class="container" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:12px;">
+    <span>© Hope</span>
+    <span>Built with HTML &amp; CSS</span>
+  </div>
+</footer>
 
 </body>
-</html>
+</html> 
