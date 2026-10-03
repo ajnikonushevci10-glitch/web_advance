@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+
+        
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --bg-card: #27272a;
+            --bg-card-hover: #3f3f46;
+            --text-primary: #f4f4f5;
+            --text-secondary: #a1a1aa;
+            --accent-border: #52525b; 
+        }
+
+        body {
+            background-image: url("backroundhope.png");
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Hero Header Section */
+        .header-section {
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 40px;
+        }
+
+        .header-section h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .header-section p {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Story / Vision Cards Section */
+        .grid-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--accent-border);
+            border-radius: 12px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            background-color: var(--bg-card-hover);
+            transform: translateY(-4px);
+        }
+
+        .card h2 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Stats Counter Section */
+        .stats-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: var(--bg-card);
+            border: 1px solid var(--accent-border);
+            padding: 40px 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .stat-item p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 600px) {
+            .header-section h1 {
+                font-size: 2.1rem;
+            }
+            .stats-section {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="contactus.html"><li>Contact</li></a>
+            <a href="aboutus.html"><li>About</li></a>
+            <a href="products.html"><li>Products</li></a>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="header-section">
+            <h1>Build On Hope </h1>
+            <p>Every great journey begins with a spark of possibility. We are here to bring inspiration, quality, and style to your everyday life.HOPE</p>
+        </header>
+
+        <!-- Main Info Cards -->
+        <main class="grid-section">
+            <div class="card">
+                <h2>Our Story</h2>
+                <p>Hope started with a simple idea: to create a space that inspires confidence and positivity. What began as a dream has grown into a destination built for people who believe in endless possibilities.</p>
+            </div>
+            <div class="card">
+                <h2>Our Approach</h2>
+                <p>Minimalism meets high performance. We focus on clarity, efficiency, and aesthetics in every project we tackle.</p>
+            </div>
+            <div class="card">
+                <h2>Our Vision</h2>
+                <p>To build a future where style, quality, and inspiration intersect. We envision Hope as a lasting destination for those who look forward with optimism, shaping a world where every detail adds value to your everyday life.</p>
+            </div>
+        </main>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="stat-item">
+                <h3>5+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>150+</h3>
+                <p>Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+                <h3>99%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

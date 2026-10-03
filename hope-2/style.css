@@ -1,164 +1,210 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 body{
+    background-color: #6d6a6a;
+}
+
+body {
     font-family: "Oswald", sans-serif;
 }
 
 
-
-
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     padding: 20px;
 }
-nav{
+
+nav {
     flex: 1;
     text-align: right;
 
 }
-nav ul{
+
+nav ul {
     display: inline-block;
     list-style: none;
 
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #555;
 }
-p{
+
+p {
     color: #555;
 }
-.contanier{
+
+.contanier {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 }
-    .row{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .col-2{
-        flex-basis: 50%;
-        min-width: 300px;
 
-    }
-.col-2 img{
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+
+.col-2 img {
     max-width: 100%;
     padding: 50px 0;
 
 }
-    .col-2 h1 {
-     font-size: 50px;
-     line-height: 60px;
-     margin: 25px 0;
 
-    }
-    .btn{
-        display: inline-block;
-        background: #000;
-        color: #fff;
-        padding: 8px 30px;
-        margin: 30px 0;
-        border-radius: 30px;
-        transition: background 0.5s;
-         
-    }
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
 
-    .btn:hover{
-      background: #757474;
-    }
-
-    .header{
-        background: radial-gradient(#ffffff,#555);
-    }
-.header .row{
-    margin-top: 70px;
-    
 }
-.categories{
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+}
+
+.btn:hover {
+    background: #757474;
+}
+
+.header {
+    background: radial-gradient(#ffffff, #555);
+}
+
+.header .row {
+    margin-top: 70px;
+
+}
+
+.categories {
     margin: 70px 0;
 }
-.col-3{
+
+.col-3 {
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
 }
-.col-3 img{
+
+.col-3 img {
     width: 100%;
 }
-small-contanier{
-   max-width: 1080px;
-   margin: auto;
-   padding-left: 25px;
-   padding-right: 25px;
+
+small-contanier {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
-.col-4{
+
+.col-4 {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.5s;
-    
-}
-.col-4 img{
+    transition: transform 0.5s;}
+
+
+
+.col-4 img {
     width: 100%;
 
 }
-.title{
+
+.title {
     text-align: center;
     margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
     color: #555;
 }
-.title::after{
+
+.title::after {
     content: "";
     width: 80px;
     height: 5px;
-    border-radius:5px ;
+    border-radius: 5px;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     background: #757474;
 }
-h4{
+
+h4 {
     color: #555;
     font-weight: normal;
 }
-.col-4P{
-    font-size: 14px;  
+
+.col-4P {
+    font-size: 14px;
 }
-.rating .fa{
+
+.rating .fa {
     color: #757474;
 
 }
-.col-4 :hover{
+
+.col-4 :hover {
     transform: translateY(-5px);
 
 }
 
-.offer{
-     background: radial-gradient(#ffffff,#555);
-     margin-top: 80px;
-     padding: 30px 0;
+.offer {
+    background: radial-gradient(#ffffff, #555);
+    margin-top: 80px;
+    padding: 30px 0;
 }
-.col-2 .offer-img{
+
+.col-2 .offer-img {
     padding: 50px;
 }
-small{
+
+small {
     color: #555;
+}
+
+.about-page {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f4f4f5;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.about-page .card {
+    background-color: #27272a;
+    border: 1px solid #52525b;
+    border-radius: 12px;
+    padding: 30px;
 }
