@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Clothing - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Shared Navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="hope logo.png" width="125px" alt="Hope Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#products">Products</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="shoping_cart-removebg-preview.png" width="30px" height="30px" alt="Cart" style="margin-left: 20px;">
+        </div>
+    </div>
+
+    <!-- Alive & Centered Contact Section -->
+    <div class="contact-hero container">
+        <div class="contact-header text-center">
+            <h1>GET IN TOUCH</h1>
+            <p class="contact-subtitle">WE'RE HERE TO HELP. REACH OUT TO US FOR ORDERS, INQUIRIES, OR COLLABORATIONS.</p>
+        </div>
+
+        <!-- Quick Info Cards -->
+        <div class="contact-cards-grid">
+            <div class="contact-card">
+                <div class="card-icon"><i class="fa-solid fa-envelope"></i></div>
+                <h3>EMAIL US</h3>
+                <p>support@hopestore.com</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="card-icon"><i class="fa-brands fa-instagram"></i></div>
+                <h3>DIRECT MESSAGE</h3>
+                <p>@hope.clothing</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <h3>WORLDWIDE</h3>
+                <p>Global Express Shipping</p>
+            </div>
+        </div>
+
+        <!-- Main Form Wrapper -->
+        <div class="contact-form-wrapper">
+            <h2>SEND A MESSAGE</h2>
+            <form onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="name@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Order inquiry / Question">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-full">SEND MESSAGE &#8594;</button>
+            </form>
+            
+            <div class="back-link">
+                <a href="index.html">&#8592; Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

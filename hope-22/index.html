@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Clothing - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header & Navbar -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="hope logo.png" width="125px" alt="Hope Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="shoping_cart-removebg-preview.png" width="30px" height="30px" alt="Cart" style="margin-left: 20px; cursor: pointer;">
+            </div>
+            
+            <div class="row">
+                <div class="col-2">
+                    <h1>Hope big!</h1>
+                    <p>Hope is more than just a clothing brand — it represents confidence, positivity, and believing in a better future.</p>
+                    <a href="#products" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="ChatGPT_Image_Oct_3__2026__03_40_35_PM-removebg-preview.png" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Categories Section -->
+    <div class="categories container">
+        <div class="row">
+            <div class="col-3">
+                <img src="Gemini_Generated_Image_wo6d9wwo6d9wwo6d-removebg-preview.png" alt="Category 1">
+            </div>
+            <div class="col-3">
+                <img src="Gemini_Generated_Image_vs3s07vs3s07vs3s-removebg-preview.png" alt="Category 2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Banner Section -->
+    <div class="small-container" style="margin-top: 50px; margin-bottom: 50px; padding: 0;">
+        <img src="Hope Graffiti Over Punk Collage.png" alt="Streetwear Category Banner" style="width: 100%; border-radius: 12px; border: 1px solid #27272a; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display: block;">
+    </div>
+
+    <!-- Featured Products Section -->
+    <div id="products" class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            
+            <!-- Product Item 1 -->
+            <div class="col-4" onclick="openCheckout('Universal Hope Tee', '$29.99', 'Untitled_Project_-_T-Shirt__1_-removebg-preview.png')">
+                <img src="Untitled_Project_-_T-Shirt__1_-removebg-preview.png" alt="Product 1">
+                <h4>Universal Hope Tee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                </div>
+                <p>$29.99</p>
+            </div>
+            
+            <!-- Product Item 2 -->
+            <div class="col-4" onclick="openCheckout('Universal Hope Oversized', '$34.99', 'Untitled_Project_-_T-Shirt__2_-removebg-preview.png')">
+                <img src="Untitled_Project_-_T-Shirt__2_-removebg-preview.png" alt="Product 2">
+                <h4>Universal Hope Oversized</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                </div>
+                <p>$34.99</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Latest Products Section -->
+    <div class="small-container">
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            
+            <!-- Product Item 3 -->
+            <div class="col-4" onclick="openCheckout('We Hope Together Tee', '$29.99', 'Untitled_Project_-_T-Shirt__1_-removebg-preview.png')">
+                <img src="Untitled_Project_-_T-Shirt__1_-removebg-preview.png" alt="Product 3">
+                <h4>We Hope Together Tee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                </div>
+                <p>$29.99</p>
+            </div>
+            
+            <!-- Product Item 4 -->
+            <div class="col-4" onclick="openCheckout('Hope Classic Black', '$29.99', 'Untitled_Project_-_T-Shirt__2_-removebg-preview.png')">
+                <img src="Untitled_Project_-_T-Shirt__2_-removebg-preview.png" alt="Product 4">
+                <h4>Hope Classic Black</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                </div>
+                <p>$29.99</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Exclusive Offer Section -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Untitled_Project_-_T2fly_logo-removebg-preview.png" class="offer-img" alt="Offer Image">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available On Hope Store</p>
+                    <h1 style="color: #ffffff;">Hope You Grab That MONEY</h1>
+                    <small>Hope Special Edition Shirt with custom graphic design and premium heavyweight cotton.</small>
+                    <br><br>
+                    <button onclick="openCheckout('Hope You Grab That MONEY', '$39.99', 'Untitled_Project_-_T2fly_logo-removebg-preview.png')" class="btn">Buy Now &#8594;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- CHECKOUT POPUP MODAL -->
+    <!-- ========================================== -->
+    <div class="modal-overlay" id="checkoutModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeCheckout()">&times;</span>
+            
+            <!-- Standard Checkout View -->
+            <div id="checkoutBody" style="display: flex; flex-wrap: wrap; width: 100%;">
+                <div class="modal-img-col">
+                    <img id="modalImg" src="" alt="Selected Product">
+                </div>
+                
+                <div class="modal-details-col">
+                    <h2 id="modalTitle">Product Title</h2>
+                    <div class="modal-price" id="modalPrice">$0.00</div>
+                    
+                    <div class="size-selector">
+                        <label>Select Size</label>
+                        <div class="size-btn-group">
+                            <button type="button" class="size-btn" onclick="selectSize(this)">S</button>
+                            <button type="button" class="size-btn selected" onclick="selectSize(this)">M</button>
+                            <button type="button" class="size-btn" onclick="selectSize(this)">L</button>
+                            <button type="button" class="size-btn" onclick="selectSize(this)">XL</button>
+                        </div>
+                    </div>
+                    
+                    <form class="checkout-form" onsubmit="submitOrder(event)">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Shipping Address" required>
+                        <button type="submit" class="btn" style="margin-top: 10px; width: 100%;">Complete Order</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Order Confirmation View -->
+            <div class="success-message" id="successMessage">
+                <i class="fa fa-circle-check"></i>
+                <h2 style="color: #ffffff; margin-bottom: 10px;">Order Placed!</h2>
+                <p>Thank you for shopping with Hope. We will send you a confirmation email shortly.</p>
+                <br>
+                <button class="btn" onclick="closeCheckout()">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Interactive Logic Script -->
+    <script>
+        function openCheckout(title, price, imgSrc) {
+            document.getElementById('modalTitle').innerText = title;
+            document.getElementById('modalPrice').innerText = price;
+            document.getElementById('modalImg').src = imgSrc;
+            document.getElementById('checkoutBody').style.display = 'flex';
+            document.getElementById('successMessage').style.display = 'none';
+            document.getElementById('checkoutModal').classList.add('active');
+        }
+
+        function closeCheckout() {
+            document.getElementById('checkoutModal').classList.remove('active');
+        }
+
+        function selectSize(btn) {
+            let buttons = document.querySelectorAll('.size-btn');
+            buttons.forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+        }
+
+        function submitOrder(e) {
+            e.preventDefault();
+            document.getElementById('checkoutBody').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+        }
+
+        // Close modal if user clicks outside of it
+        window.onclick = function(event) {
+            let modal = document.getElementById('checkoutModal');
+            if (event.target == modal) {
+                closeCheckout();
+            }
+        }
+    </script>
+
+</body>
+</html>
